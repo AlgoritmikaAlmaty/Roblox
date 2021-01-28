@@ -23,11 +23,10 @@ parent.Touched:Connect(function(hit)
 		local BWS = Humanoid.BodyWidthScale
 		local BHS = Humanoid.BodyHeightScale
 
-		HS.Value = HS.Value * value
-		BDS.Value = BDS.Value * value
-		BWS.Value = BWS.Value * value
-		BHS.Value = BHS.Value * value
-		print(HS.Value)
+		HS.Value = value
+		BDS.Value = value
+		BWS.Value = value
+		BHS.Value = value
 	end
 	wait(waitTime)
 	isReady = true
